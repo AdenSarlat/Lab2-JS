@@ -16,3 +16,7 @@ const pageBody = document.body;
 // Set tht color as the background
     pageBody.style.backgroundColor = rgbColor;
 }
+redSlider.addEventListener("input", updateBackgroundColor);
+greenSlider.addEventListener("input", updateBackgroundColor); //event listners for the slider input
+blueSlider.addEventListener("input", updateBackgroundColor);
+//calls update background when a value is changed
