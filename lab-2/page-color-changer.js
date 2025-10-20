@@ -1,6 +1,6 @@
-let red = document.getElementById("red");
-let green = document.getElementById("green"); //finding the sliders by ids
-let blue = document.getElementById("blue");
+const redSlider = document.getElementById("red");
+const greenSlider = document.getElementById("green");//finding the sliders by ids
+const blueSlider = document.getElementById("blue");
 
-// Get the body element
-let body = document.body;
+//Get the body element
+const pageBody = document.body;
